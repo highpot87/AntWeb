@@ -1,0 +1,8 @@
+---
+applications:
+ - name: AntWeb
+   random-route: true
+   path: output/AntWeb.war
+   memory: 256M
+   instances: 1
+   buildpack: java_buildpack
