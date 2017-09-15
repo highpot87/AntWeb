@@ -6,7 +6,10 @@
 
 	<!-- jarタスクによってwarファイルを作成 -->
 	<target name="dist">
+
 		<jar destfile="${war.home}/output/${web-app.name}.war"
-			basedir="${war.home}" />
+			basedir="${war.home}"
+			excludes="**/${web-app.name}.war">
+		</jar>
 	</target>
 </project>
