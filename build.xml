@@ -6,7 +6,7 @@
 
 	<!-- jarタスクによってwarファイルを作成 -->
 	<target name="dist">
-		<jar destfile="${war.home}/${web-app.name}.war"
+		<jar destfile="${war.home}/output/${web-app.name}.war"
 			basedir="${war.home}" />
 	</target>
 </project>
